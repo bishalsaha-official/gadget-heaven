@@ -1,0 +1,172 @@
+[
+  {
+    "product_id": 1,
+    "product_title": "Dell Inspiron 14",
+    "product_image": "https://i.ibb.co/Csw6Dvcm/Dell-Inspiron-14.jpg",
+    "category": "laptop",
+    "price": 649,
+    "description": "Powerful laptop with Intel Core i5 and fast SSD storage.",
+    "specification": [
+      "14-inch FHD Display",
+      "Intel Core i5 12th Gen",
+      "8GB RAM",
+      "512GB SSD",
+      "Intel Iris Xe Graphics"
+    ],
+    "availability": true,
+    "rating": 4.3
+  },
+  {
+    "product_id": 2,
+    "product_title": "HP Envy x360",
+    "product_image": "https://i.ibb.co/zV1rhMrN/6571084-sd-jpg.webp",
+    "category": "laptop",
+    "price": 899,
+    "description": "2-in-1 touchscreen laptop with AMD Ryzen 7.",
+    "specification": [
+      "13.3-inch FHD Touch Display",
+      "AMD Ryzen 7 7730U",
+      "16GB DDR4 RAM",
+      "512GB SSD",
+      "Backlit Keyboard"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": 3,
+    "product_title": "Lenovo ThinkPad E14",
+    "product_image": "https://i.ibb.co/G3CzGy33/2-5.webp",
+    "category": "laptop",
+    "price": 799,
+    "description": "Business laptop with legendary ThinkPad build.",
+    "specification": [
+      "14-inch FHD Display",
+      "Intel Core i5 11th Gen",
+      "16GB RAM",
+      "256GB SSD",
+      "Fingerprint Reader"
+    ],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_id": 4,
+    "product_title": "ASUS ROG Zephyrus G14",
+    "product_image": "https://i.ibb.co/Jw1wd3KY/s-l1200.jpg",
+    "category": "laptop",
+    "price": 1349,
+    "description": "High-performance gaming laptop with NVIDIA RTX graphics.",
+    "specification": [
+      "14-inch QHD Display",
+      "AMD Ryzen 9",
+      "16GB RAM",
+      "1TB SSD",
+      "RTX 3060 GPU"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": 5,
+    "product_title": "Acer Aspire 5",
+    "product_image": "https://i.ibb.co/V00f7Z3q/Acer-Aspire-5-5-P-A515-58-P-Intel-Core-i3-13th-Gen-1305-U-8-GB-RAM-512-GB-SSD-15-6-Inch-Display-Lapt.jpg",
+    "category": "laptop",
+    "price": 499,
+    "description": "Budget-friendly laptop for everyday use.",
+    "specification": [
+      "15.6-inch Full HD Display",
+      "Intel Core i3 11th Gen",
+      "8GB RAM",
+      "256GB SSD",
+      "WiFi 6 Support"
+    ],
+    "availability": true,
+    "rating": 4.2
+  },
+  {
+    "product_id": 6,
+    "product_title": "Microsoft Surface Laptop 5",
+    "product_image": "https://i.ibb.co/0yv7v4zc/51-HRWLr-Ciq-L-AC-UF894-1000-QL80.jpg",
+    "category": "laptop",
+    "price": 1199,
+    "description": "Slim and elegant design powered by Intel Evo platform.",
+    "specification": [
+      "13.5-inch PixelSense Display",
+      "Intel Core i7",
+      "16GB RAM",
+      "512GB SSD",
+      "Touchscreen"
+    ],
+    "availability": false,
+    "rating": 4.4
+  },
+  {
+    "product_id": 7,
+    "product_title": "Samsung Galaxy S24 Ultra",
+    "product_image": "https://i.ibb.co/sdBSVD20/Zc-MRh-Q4-QIek-Df-HLLf-ERr-Nd92-Zs-SRm-DMiyp-ERNCa-D.jpg",
+    "category": "phones",
+    "price": 1199,
+    "description": "Latest flagship smartphone with S Pen and AI features.",
+    "specification": [
+      "6.8-inch QHD+ Display",
+      "Snapdragon 8 Gen 3",
+      "200MP Main Camera",
+      "12GB RAM",
+      "5000mAh Battery"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": 8,
+    "product_title": "Apple Watch Series 9",
+    "product_image": "https://i.ibb.co/MkhmhBX1/apple-watch-series-9-graphite.webp",
+    "category": "smart watches",
+    "price": 399,
+    "description": "Health-focused smartwatch with new double-tap gesture.",
+    "specification": [
+      "Always-On Retina Display",
+      "Blood Oxygen Sensor",
+      "ECG App",
+      "Fitness+ Compatible",
+      "S9 SiP Chip"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": 9,
+    "product_title": "Apple MacBook Pro M3",
+    "product_image": "https://i.ibb.co/G3kDvR44/CMC-7492.jpg",
+    "category": "macBook",
+    "price": 1999,
+    "description": "Supercharged laptop with Apple M3 chip and Liquid Retina XDR.",
+    "specification": [
+      "14.2-inch Liquid Retina XDR Display",
+      "Apple M3 Pro Chip",
+      "16GB Unified Memory",
+      "1TB SSD",
+      "macOS Sonoma"
+    ],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "product_id": 10,
+    "product_title": "Apple iPhone 15 Pro Max",
+    "product_image": "https://i.ibb.co/7xds4hfF/5080.jpg",
+    "category": "iphone",
+    "price": 1299,
+    "description": "Experience the ultimate smartphone with the iPhone 15 Pro Max.",
+    "specification": [
+      "6.7-inch Super Retina XDR display",
+      "A17 Bionic chip",
+      "Triple-camera system (48MP Main, 12MP Telephoto, 12MP Ultrawide)",
+      "LiDAR Scanner",
+      "Up to 2TB storage"
+    ],
+    "availability": true,
+    "rating": 4.8
+  }
+]
