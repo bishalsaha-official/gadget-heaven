@@ -5,16 +5,22 @@ import CartItem from "./CartItem";
 const Cart = () => {
     const [count, setCount] = useState(0)
     const [items, setItems] = useState([])
-    useEffect(()=>{
+
+    useEffect(() => {
         const data = getItem()
         setItems(data)
-    },[])
-    
+    }, [])
+
     const handleRemove = id => {
         removeItem(id)
         const data = getItem()
         setItems(data)
     }
+
+    const handleSortByPrice = () => {
+        const sortedItems = [...items].sort((a, b) => a.price - b.price);
+        setItems(sortedItems);
+    };
 
     return (
         <div>
@@ -23,12 +29,12 @@ const Cart = () => {
                 <div>
                     <span className="text-xl mr-5 font-bold">Total cost: {count}</span>
                     <button className="text-xl btn rounded-full mr-5 bg-white border-purple-600 text-purple-600">Short By Price</button>
-                    <button className="text-xl btn rounded-full bg-purple-600 text-white">Purchase</button>
+                    <button onClick={()=> handleSortByPrice()} className="text-xl btn rounded-full bg-purple-600 text-white">Purchase</button>
                 </div>
             </div>
             <div className="max-w-4xl mx-auto mt-10">
                 {
-                    items.map(item => <CartItem key={item.product_id} item={item} handleRemove={handleRemove}></CartItem> )
+                    items.map(item => <CartItem key={item.product_id} item={item} handleRemove={handleRemove}></CartItem>)
                 }
             </div>
         </div>

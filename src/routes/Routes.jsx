@@ -7,11 +7,14 @@ import Statistic from "../pages/Statistic";
 import ProductDetails from "../components/ProductDetails";
 import Cart from "../components/Cart";
 import Wishlist from "../components/Wishlist";
+import Error from "../components/Error";
+import Register from "../pages/Register";
 
 const routes = createBrowserRouter([
     {
         path: '/',
         element: <Layout></Layout>,
+        errorElement:<Error></Error>,
         children: [
             {
                 path: '/',
@@ -56,6 +59,10 @@ const routes = createBrowserRouter([
                 path: '/product/:id',
                 element: <ProductDetails></ProductDetails>,
                 loader: () => fetch('../products.json')
+            },
+            {
+                path: '/register',
+                element: <Register></Register>
             }
         ]
     },

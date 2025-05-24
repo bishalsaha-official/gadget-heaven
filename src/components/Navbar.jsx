@@ -8,6 +8,7 @@ const Navbar = () => {
         <li><NavLink to="/">Home</NavLink></li>
         <li><NavLink to="/statistic">Statistic</NavLink></li>
         <li><NavLink to="/dashboard">Dashboard</NavLink></li>
+        <li><NavLink to="/register">Register</NavLink></li>
     </>
     return (
         <div className="navbar bg-base-100 px-10">
@@ -28,8 +29,8 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end gap-6">
-                <button><FaCartPlus></FaCartPlus></button>
-                <button><MdFavorite></MdFavorite></button>
+                <NavLink to="/dashboard/cart"><FaCartPlus></FaCartPlus></NavLink>
+                <NavLink to="/dashboard/wishlist"><MdFavorite></MdFavorite></NavLink>
             </div>
         </div>
     );
