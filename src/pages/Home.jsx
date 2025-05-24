@@ -12,8 +12,8 @@ const Home = () => {
             <Banner></Banner>
             <Heading title="Explore Cutting-Edge Gadgets"></Heading>
             <div className="max-w-7xl mx-auto mt-10 grid grid-cols-[20%_80%] gap-8">
-                <Categories categories={categories}></Categories>
-                <Outlet></Outlet>
+                <div><Categories categories={categories}></Categories></div>
+                <div><Outlet></Outlet></div>
             </div>
         </div>
     );
