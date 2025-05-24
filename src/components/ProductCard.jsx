@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 
-const ProductCard = ({product}) => {
-    const {product_id, product_title, product_image} = product;
+const ProductCard = ({ product }) => {
+    const { product_id, product_title, product_image } = product;
     return (
         <div className='bg-white border p-5 rounded-xl'>
             <img className='w-full h-60' src={product_image} alt="" />

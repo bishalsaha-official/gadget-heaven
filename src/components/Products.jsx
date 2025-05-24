@@ -4,17 +4,17 @@ import { useEffect, useState } from "react";
 
 const Products = () => {
     const data = useLoaderData()
-    const {categoryId} = useParams()
+    const { categoryId } = useParams()
     console.log(categoryId)
     const [products, setProducts] = useState([])
-    useEffect(()=>{
-        if(categoryId){
+    useEffect(() => {
+        if (categoryId) {
             const filterData = [...data].filter(item => item.category === categoryId)
             setProducts(filterData)
-        } else{
+        } else {
             setProducts(data)
         }
-    },[categoryId, data])
+    }, [categoryId, data])
     console.log(products)
     return (
         <div className="grid grid-cols-3 gap-5">
